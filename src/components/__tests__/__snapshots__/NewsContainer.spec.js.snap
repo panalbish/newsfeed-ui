@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsContainer should not render any news card when no news found for query 1`] = `
+<div>
+  <header
+    class="css-1kq4fa7"
+  >
+    <nav
+      class="css-4cffwv"
+    >
+      <a
+        class="css-whbyge"
+        href="/newsui"
+      >
+        <img
+          class="css-1xwhrzr"
+          src="images/logo.svg"
+        />
+        <h1>
+          NewsFeed
+        </h1>
+      </a>
+      <button
+        aria-label="Toggle dark mode"
+        class="css-mw5nhv"
+      >
+        <svg
+          fill="currentcolor"
+          height="24"
+          viewBox="0 0 219.8 219.8"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M159.8 128a7.5 7.5 0 00-6-4.7 69.4 69.4 0 01-54.8-42c-9.4-22.7-6-49 9-68.6a7.5 7.5 0 00-5-12A84.7 84.7 0 0060 6.4 83.6 83.6 0 0014.4 52a84 84 0 0077.8 116.3 83.6 83.6 0 0066.6-32.9c1.7-2 2-5 1-7.4zm-41.3 20a69 69 0 01-90.3-90.3A68.7 68.7 0 0188.8 15a84.4 84.4 0 00-3.6 72 84.4 84.4 0 0053.4 48.2 69.2 69.2 0 01-20 12.7z"
+          />
+        </svg>
+      </button>
+    </nav>
+  </header>
+  <main
+    class="css-1jo28tj"
+  >
+    <form
+      class="css-vyq1cg"
+    >
+      <input
+        class="css-iyqgnx"
+        data-testid="search-input"
+        placeholder="Enter the news keyword"
+        required=""
+        type="search"
+        value="--very-unique-query--"
+      />
+      <button
+        class="css-6a6uc7"
+        data-testid="search-news-button"
+      >
+        Search
+      </button>
+    </form>
+    
+    <div
+      class="css-1g1x2nw"
+    >
+      <svg
+        height="200"
+        viewBox="0 0 24 24"
+        width="200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M23.25 16a.75.75 0 01-.75-.75V2.75c0-.69-.56-1.25-1.25-1.25H2.75c-.69 0-1.25.56-1.25 1.25v12.5a.75.75 0 01-1.5 0V2.75A2.75 2.75 0 012.75 0h18.5A2.75 2.75 0 0124 2.75v12.5c0 .41-.34.75-.75.75z"
+        />
+        <path
+          d="M8.25 16a.75.75 0 01-.66-.39L6.5 13.65v1.6a.75.75 0 01-1.5 0v-4.5a.75.75 0 011.4-.36l1.1 1.97v-1.61a.75.75 0 011.5 0v4.5a.75.75 0 01-.75.75zm4 0h-.5c-.96 0-1.75-.79-1.75-1.75v-2.5c0-.96.79-1.75 1.75-1.75h.5c.96 0 1.75.79 1.75 1.75v2.5c0 .96-.79 1.75-1.75 1.75zm-.5-4.5a.25.25 0 00-.25.25v2.5c0 .14.11.25.25.25h.5c.14 0 .25-.11.25-.25v-2.5a.25.25 0 00-.25-.25zM17 16a.75.75 0 01-.75-.75v-4.5a.75.75 0 011.5 0v4.5c0 .41-.34.75-.75.75z"
+        />
+        <path
+          d="M18.25 11.5h-2.5a.75.75 0 010-1.5h2.5a.75.75 0 010 1.5zm4 12.5h-1.5a.75.75 0 01-.75-.75v-4.5c0-.41.34-.75.75-.75h1.5c.96 0 1.75.79 1.75 1.75v2.5c0 .96-.79 1.75-1.75 1.75zm-.75-1.5h.75c.14 0 .25-.11.25-.25v-2.5a.25.25 0 00-.25-.25h-.75zM.75 24a.75.75 0 01-.75-.75v-3.5C0 18.79.79 18 1.75 18h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v3.5c0 .41-.34.75-.75.75z"
+        />
+        <path
+          d="M3.25 22H.75a.75.75 0 010-1.5h2.5a.75.75 0 010 1.5zm15 2a.75.75 0 01-.66-.39l-1.09-1.97v1.6a.75.75 0 01-1.5.01v-4.5a.75.75 0 011.4-.36l1.1 1.97v-1.61a.75.75 0 011.5 0v4.5a.75.75 0 01-.75.75zm-11 0h-.5C5.79 24 5 23.21 5 22.25v-2.5c0-.96.79-1.75 1.75-1.75h.5c.96 0 1.75.79 1.75 1.75v2.5C9 23.21 8.21 24 7.25 24zm-.5-4.5a.25.25 0 00-.25.25v2.5c0 .14.11.25.25.25h.5c.14 0 .25-.11.25-.25v-2.5a.25.25 0 00-.25-.25zm5.5 4.5h-.5c-.96 0-1.75-.79-1.75-1.75v-3.5a.75.75 0 011.5 0v3.5c0 .14.11.25.25.25h.5c.14 0 .25-.11.25-.25v-3.5a.75.75 0 011.5 0v3.5c0 .96-.79 1.75-1.75 1.75zm11-19H.75a.75.75 0 010-1.5h22.5a.75.75 0 010 1.5z"
+        />
+      </svg>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`NewsContainer should render news card items 1`] = `
+<div>
+  <header
+    class="css-1kq4fa7"
+  >
+    <nav
+      class="css-4cffwv"
+    >
+      <a
+        class="css-whbyge"
+        href="/newsui"
+      >
+        <img
+          class="css-1xwhrzr"
+          src="images/logo.svg"
+        />
+        <h1>
+          NewsFeed
+        </h1>
+      </a>
+      <button
+        aria-label="Toggle dark mode"
+        class="css-mw5nhv"
+      >
+        <svg
+          fill="currentcolor"
+          height="24"
+          viewBox="0 0 219.8 219.8"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M159.8 128a7.5 7.5 0 00-6-4.7 69.4 69.4 0 01-54.8-42c-9.4-22.7-6-49 9-68.6a7.5 7.5 0 00-5-12A84.7 84.7 0 0060 6.4 83.6 83.6 0 0014.4 52a84 84 0 0077.8 116.3 83.6 83.6 0 0066.6-32.9c1.7-2 2-5 1-7.4zm-41.3 20a69 69 0 01-90.3-90.3A68.7 68.7 0 0188.8 15a84.4 84.4 0 00-3.6 72 84.4 84.4 0 0053.4 48.2 69.2 69.2 0 01-20 12.7z"
+          />
+        </svg>
+      </button>
+    </nav>
+  </header>
+  <main
+    class="css-1jo28tj"
+  >
+    <form
+      class="css-vyq1cg"
+    >
+      <input
+        class="css-iyqgnx"
+        data-testid="search-input"
+        placeholder="Enter the news keyword"
+        required=""
+        type="search"
+        value="test"
+      />
+      <button
+        class="css-6a6uc7"
+        data-testid="search-news-button"
+      >
+        Search
+      </button>
+    </form>
+    
+    <div
+      class="css-1xv1cp3"
+    >
+      <a
+        class="css-1la3fc5"
+        href="https://lifehacker.com/before-you-pay-for-spotifys-hifi-test-your-hearing-1846345345"
+      >
+        <div
+          class="css-14jh6wj"
+          style="background-image: url(/images/404-image.png);"
+        />
+        <article
+          class="css-9jtvmn"
+        >
+          <h1
+            class="css-ps0qfw"
+          >
+            Before You Pay for Spotify's "HiFi," Test Your Hearing
+          </h1>
+          <p
+            class="css-199f0rw"
+          >
+            As one who likes to rock out, I confess, I was excited that my streaming service of choice—Spotify—announced it’s rolling out a new service tier for lossless audio streaming. Sure, it’ll cost more than what I’m paying now, but throwing away an expected $20 a …
+          </p>
+          <span
+            class="css-d39lne"
+          >
+            David Murphy
+             
+            / 24 Feb 2021
+          </span>
+        </article>
+      </a>
+      <a
+        class="css-1la3fc5"
+        href="https://www.engadget.com/baidu-apollo-go-commercialization-tests-changzhou-195000304.html"
+      >
+        <div
+          class="css-14jh6wj"
+          style="background-image: url(/images/404-image.png);"
+        />
+        <article
+          class="css-9jtvmn"
+        >
+          <h1
+            class="css-ps0qfw"
+          >
+            Baidu earns permission to test paid driverless taxi in Cangzhou
+          </h1>
+          <p
+            class="css-199f0rw"
+          >
+            Cangzhou granted the company's Apollo Go service permission to run commercialization tests with 35 cars.
+          </p>
+          <span
+            class="css-d39lne"
+          >
+            https://www.engadget.com/about/editors/igor-bonifacic
+             
+            / 15 Mar 2021
+          </span>
+        </article>
+      </a>
+      <a
+        class="css-1la3fc5"
+        href="https://www.engadget.com/netflix-account-sharing-notification-test-215153548.html"
+      >
+        <div
+          class="css-14jh6wj"
+          style="background-image: url(/images/404-image.png);"
+        />
+        <article
+          class="css-9jtvmn"
+        >
+          <h1
+            class="css-ps0qfw"
+          >
+            Netflix 'test' pushes password sharers to get their own account
+          </h1>
+          <p
+            class="css-199f0rw"
+          >
+            The days of Netflix taking a lax stance toward password sharing may be coming to an end. In a test spotted by The Streamable, the company has started sending a notification that prompts people to sign up for the service if it detects they're not in the same h…
+          </p>
+          <span
+            class="css-d39lne"
+          >
+            Igor Bonifacic
+             
+            / 11 Mar 2021
+          </span>
+        </article>
+      </a>
+      <a
+        class="css-1la3fc5"
+        href="https://www.engadget.com/xbox-chromium-edge-browser-alpha-test-182753320.html"
+      >
+        <div
+          class="css-14jh6wj"
+          style="background-image: url(/images/404-image.png);"
+        />
+        <article
+          class="css-9jtvmn"
+        >
+          <h1
+            class="css-ps0qfw"
+          >
+            Xbox test brings Microsoft's Chromium-based Edge browser to consoles
+          </h1>
+          <p
+            class="css-199f0rw"
+          >
+            You might finally have a good reason to use the web browser on your console for more than the bare necessities. The Verge reports that Microsoft has started testing a version of its Chromium-based Edge browser on the Xbox One and Series X/S. Participate in th…
+          </p>
+          <span
+            class="css-d39lne"
+          >
+            Jon Fingas
+             
+            / 7 Mar 2021
+          </span>
+        </article>
+      </a>
+    </div>
+  </main>
+</div>
+`;

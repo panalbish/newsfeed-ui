@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsItem should render news item card component 1`] = `
+<div>
+  <a
+    class="css-1la3fc5"
+    href="https://some-url/news-id/1"
+  >
+    <div
+      class="css-14jh6wj"
+      style="background-image: url(https://some-url/szeeqqwv6rzmsvrrwoxe.jpg);"
+    />
+    <article
+      class="css-9jtvmn"
+    >
+      <h1
+        class="css-1cknil1"
+      >
+        Test title
+      </h1>
+      <p
+        class="css-199f0rw"
+      >
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. A
+      </p>
+      <span
+        class="css-w8evcg"
+      >
+        Test User
+         
+        / 24 Feb 2021
+      </span>
+    </article>
+  </a>
+</div>
+`;

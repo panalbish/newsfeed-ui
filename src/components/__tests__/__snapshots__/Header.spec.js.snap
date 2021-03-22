@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should contain navigation link in header 1`] = `
+<div>
+  <header
+    class="css-1kq4fa7"
+  >
+    <nav
+      class="css-4cffwv"
+    >
+      <a
+        class="css-whbyge"
+        href="/newsui"
+      >
+        <img
+          class="css-1xwhrzr"
+          src="images/logo.svg"
+        />
+        <h1>
+          NewsFeed
+        </h1>
+      </a>
+      <button
+        aria-label="Toggle dark mode"
+        class="css-mw5nhv"
+      >
+        <svg
+          fill="currentcolor"
+          height="24"
+          viewBox="0 0 219.8 219.8"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M159.8 128a7.5 7.5 0 00-6-4.7 69.4 69.4 0 01-54.8-42c-9.4-22.7-6-49 9-68.6a7.5 7.5 0 00-5-12A84.7 84.7 0 0060 6.4 83.6 83.6 0 0014.4 52a84 84 0 0077.8 116.3 83.6 83.6 0 0066.6-32.9c1.7-2 2-5 1-7.4zm-41.3 20a69 69 0 01-90.3-90.3A68.7 68.7 0 0188.8 15a84.4 84.4 0 00-3.6 72 84.4 84.4 0 0053.4 48.2 69.2 69.2 0 01-20 12.7z"
+          />
+        </svg>
+      </button>
+    </nav>
+  </header>
+</div>
+`;

@@ -1,0 +1,30 @@
+{
+  "name": "newsfeed-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@humanwhocodes/env": "^2.1.4",
+    "@theme-ui/presets": "^0.3.5",
+    "next": "10.0.9",
+    "query-string": "^7.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "theme-ui": "^0.3.5",
+    "typeface-bree-serif": "^1.1.13",
+    "typeface-dm-sans": "^1.1.13"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  }
+}
