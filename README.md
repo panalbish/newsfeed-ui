@@ -34,14 +34,14 @@ as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of Reac
 
 * Server rendered news content using query parameter
   ```
-  http://localhost:3000/newsui?query={searchquery}
+  https://newsfeed-ui.vercel.app/newsui?query=demo
   ```
 
 * Client side request as singe-page-application. Enter the news query and search from the client side. On submitting the
   query, the input query is synced to url request query. So that, during the browser reload we won't loose the query
   input and result page.
   ```
-  http://localhost:3000/newsui
+  https://newsfeed-ui.vercel.app/newsui
   ```
 
 ## Deployment
