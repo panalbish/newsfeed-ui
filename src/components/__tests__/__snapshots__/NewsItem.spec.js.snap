@@ -12,6 +12,7 @@ exports[`NewsItem should render news item card component 1`] = `
     />
     <article
       class="css-9jtvmn"
+      data-testid="search-article"
     >
       <h1
         class="css-1cknil1"

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "jest",
+    "test": "jest src",
     "test:cypress": "cypress open"
   },
   "dependencies": {
