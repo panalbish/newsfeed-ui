@@ -10,7 +10,7 @@ const NewsItem = ({ title, author, description, url, image, publishedAt }) => {
           backgroundImage: `url(${image ?? '/images/404-image.png'})`
         }}
       />
-      <Flex as="article" sx={styles.cardArticle}>
+      <Flex as="article" sx={styles.cardArticle} data-testid="search-article">
         <Heading as="h1" sx={styles.cardTitle}>
           {title}
         </Heading>

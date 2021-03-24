@@ -58,7 +58,7 @@ export default function NewsContainer({ searchQueryFromUrl, initialData }) {
         {error && 'Error Occurred'}
 
         {news.length > 0 && (
-          <Grid sx={styles.grid}>
+          <Grid sx={styles.grid} data-testid="search-items">
             {news.map((currentNews, index) => (
               <NewsItem
                 key={index}
