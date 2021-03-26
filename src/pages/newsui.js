@@ -1,4 +1,4 @@
-import { parseRelativeUrl } from 'next/dist/next-server/lib/router/utils/parse-relative-url';
+import { parseUrl } from 'query-string';
 import { getNews } from './api/news';
 import NewsContainer from '../components/NewsContainer';
 
@@ -22,6 +22,6 @@ export const getServerSideProps = async ({ req }) => {
 };
 
 const buildSearchQuery = (url) => {
-  const { query } = parseRelativeUrl(url).query;
+  const { query } = parseUrl(url).query;
   return query ?? '';
 };
