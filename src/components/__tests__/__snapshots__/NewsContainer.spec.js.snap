@@ -22,7 +22,7 @@ exports[`NewsContainer should not render any news card when no news found for qu
       </a>
       <button
         aria-label="Toggle dark mode"
-        class="css-mw5nhv"
+        class="css-18godb4"
       >
         <svg
           fill="currentcolor"
@@ -118,7 +118,7 @@ exports[`NewsContainer should render news card items 1`] = `
       </a>
       <button
         aria-label="Toggle dark mode"
-        class="css-mw5nhv"
+        class="css-18godb4"
       >
         <svg
           fill="currentcolor"

@@ -54,6 +54,7 @@ const styles = {
     alignItems: 'center'
   },
   colorMode: {
+    cursor: 'pointer',
     ml: 'auto',
     alignSelf: 'center'
   }
