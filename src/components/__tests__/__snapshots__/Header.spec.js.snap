@@ -22,7 +22,7 @@ exports[`Header should contain navigation link in header 1`] = `
       </a>
       <button
         aria-label="Toggle dark mode"
-        class="css-mw5nhv"
+        class="css-18godb4"
       >
         <svg
           fill="currentcolor"
